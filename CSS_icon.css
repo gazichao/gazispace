@@ -1,0 +1,592 @@
+<style>
+
+    img.a {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/9gMIWGH.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.b {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/aNW45Xx.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.c {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/48gRE9E.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.good {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/5910/5910041.png");
+        background-size: contain;
+        background: transparent;
+        transform: scaleY(-1);
+    }
+
+    img.bad {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/5910/5910034.png");
+        background-size: contain;
+        background: transparent;
+        transform: scaleY(-1);
+    }
+
+    img.stop {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/10927/10927066.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.toc {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/4394/4394574.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.workout {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/1390/1390992.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.runningshoe {
+        display: inline-block;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/8589/8589433.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.runningshoeblue {
+        display: inline-block;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/5479/5479005.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.dish {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/CTkkgAK.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.calendar {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/7156/7156684.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.home {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/7133/7133267.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.phone {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/3059/3059954.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.fb {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/w8Uk5Ei.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.yt {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/2875/2875432.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.map {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/854/854901.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.traffic-light {
+        display: inline-block;
+        margin-top: -5px;
+        width: 2.5em;
+        content: url("https://i.imgur.com/XBRZLVk.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.caution {
+        display: inline-block;
+        margin-top: -3px;
+        margin-right: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/8213/8213126.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.rocket {
+        display: inline-block;
+        margin-top: -3px;
+        margin-right: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/2196/2196199.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.cheers {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/6767/6767450.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.cocktail {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/3086/3086007.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    /* ----- ----- ----- ----- */
+    
+    img.doc {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://cdn-icons-png.flaticon.com/512/337/337932.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.pdf {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://cdn-icons-png.flaticon.com/512/337/337946.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    a[href$=".pdf"]::after {
+        display: inline-block;
+        position: absolute;
+        height: 1.5em;
+        content: ".pdf";
+        color: rgba(255, 0, 0, 0);
+        background: url("https://cdn-icons-png.flaticon.com/512/337/337946.png") no-repeat;
+        background-size: contain;
+        background: transparent;
+    }
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+    img.plus {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/gGcTF0l.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.minus {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/ofubdhG.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.check {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/lCNp0UM.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.exclamation {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/LLh8y65.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.cancel {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/ZYZWTiC.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+    img.uarrow {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/56sQUGt.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.darrow {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/D1dfJsc.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.lrarrow {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/8i0mtHE.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.play {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/5690/5690573.png");
+        background-size: contain;
+        background: transparent;
+    }
+    img.intersect {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/qsMBv9k.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.inbox {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1em;
+        content: url("https://cdn-icons-png.flaticon.com/512/179/179468.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.dictionary {
+        display: inline-block;
+        margin-top: -5px;
+        margin-left: 2px;
+        width: 1em;
+        content: url("https://i.imgur.com/nFuMUZg.png");
+        background-size: contain;
+        background: transparent;
+    } /* https://uxwing.com/dictionary-icon/ */
+
+
+    /* ----- ----- 營養圖示 ----- ----- */
+
+
+    img.calorie {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-flat/256/Fire-Flat-icon.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.lipid {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/7194/7194052.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.protein {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-flat/256/Cut-Of-Meat-Flat-icon.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.carbohydrate {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/dXL0Lgf.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.menu {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/zXWV5ei.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.bmi {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://cdn-icons-png.flaticon.com/512/6774/6774897.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.pie3c {
+        display: inline-block;
+        margin-top: -3px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/LHRuUv5.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    /* ----- ----- ----- ----- */
+    
+    img.stopwatch00 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/8PI41VW.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.stopwatch10 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/mnlvFdB.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    img.stopwatch20 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/bQESodt.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.stopwatch30 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/IoT2AKh.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.stopwatch40 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/HiSerEB.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.stopwatch50 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/98w45oc.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.stopwatch60 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/GX5y3vK.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+    /* ----- ----- ----- ----- */
+    
+    img.timer00 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/y4ZTLqk.png");
+        background-size: contain;
+        background: transparent;
+    }
+    
+
+    img.timer05 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/wKFQmyo.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer10 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/KOhbvWC.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer15 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/HaMyuuC.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer20 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/Q2usaOl.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer25 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/i1tMwwb.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer30 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/Ihd4zqW.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer35 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/kNdKJiG.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer40 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/uIG0zmV.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer45 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/BCBQQhR.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer50 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/anxiTRs.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer55 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/7MLCXD3.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+    img.timer60 {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.5em;
+        content: url("https://i.imgur.com/LWZe4Xv.png");
+        background-size: contain;
+        background: transparent;
+    }
+
+</style>

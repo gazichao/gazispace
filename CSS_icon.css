@@ -274,6 +274,15 @@
 
 /* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
 
+    img.circle-link {
+        display: inline-block;
+        margin-top: -5px;
+        width: 1.2em;
+        content: url("https://i.imgur.com/HLVkkKI.png");
+        background-size: contain;
+        background: transparent;
+    }
+
     img.uarrow {
         display: inline-block;
         margin-top: -5px;
